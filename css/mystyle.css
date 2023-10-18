@@ -1,0 +1,788 @@
+
+/* Stil for Forside starter */
+
+/* Stil for header */
+.header{
+    background-color: #efe6d4;
+    height: 150px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    margin: 0;
+}
+
+/* Stil for logo */
+.logo img {
+  justify-content: center;
+  margin: 0%;
+  width: 275px;
+  height: 135px;
+}
+
+
+/* Nulstil standardmarginer og padding */
+body, h1, ul, li {
+    margin: 0;
+    padding: 0;
+    background-color: #efcfdc;
+}
+
+
+/* Stil for navigation bar */
+nav {
+    background-color: #ffffff;
+}
+
+/* Stil for navigationslinks */
+.navbar {
+    list-style: none;
+    display: flex;
+    background-color: #fff;
+}
+
+/* Stil for linkene */
+.navbar li {
+    flex: 1; /* Gør alle linkene lige brede */
+    text-align: center;
+    background-color: #fff;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #0b0b0b;
+    display: block; 
+    padding: 10px 0; 
+    font-family: 'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif;
+    -webkit-font-smoothing: antialiased; 
+    font-weight: bold;
+}
+
+/* Ændre farven på linkene ved hover (når musen er over dem) */
+.navbar a:hover {
+    background-color: #efcfdc;
+    color: #070707;
+}
+
+.un
+{
+    background-color: #efcfdc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.un img
+{
+    justify-content: center;
+    height: 400px;
+    width: 1000px;
+    margin-top: 30px; margin-bottom: 10px;
+    border: 5px solid #efe6d4
+
+}
+
+/* Stil for main */
+.main
+{
+    background-color: #efcfdc;
+}
+
+.flexbox-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flexbox {
+    text-align: center;
+    transition: transform 0.3s, color 0.3s; 
+    cursor: pointer;
+    padding: 10px;
+}
+
+.flexbox:hover {
+    transform: scale(1.1); /* Forstør elementet ved hover */
+    color: #000000; /* Ændrer tekstens farve ved hover */
+}
+
+
+/* Stil for billedecontainer */
+.image-container {
+    margin: 15px 0;
+    color: #040404;
+
+   
+}
+
+/* Stil for billede */
+.image-container img {
+    max-width: 100%; 
+    height: auto; 
+}
+
+/* Stil for flexbox-container */
+.flexbox-container {
+    display: flex;
+    justify-content: space-between; 
+    width: 80%; 
+    margin: 50px auto; 
+}
+
+/* Stil for hver flexboks */
+.flexbox {
+    background-color: #bccebb;
+    color: #000000;
+    padding: 10px;
+    text-align: center;
+    flex: 1; /* Gør alle flexbokse lige brede */
+    margin: 0 10px; 
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    -webkit-font-smoothing: antialiased; 
+    font-weight: bold;
+    font-size: larger;
+    
+}
+
+/* Stil for billederne inden for flexboksene */
+.flexbox img {
+    max-width: 100%; 
+    height: auto; 
+
+}
+
+/* Stil for footer */
+footer {
+    background-color: #efe6d4;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+}
+
+/* Stil for "Følg os" teksten */
+.social-icons p {
+    color: #000000;
+    font-weight: bolder;
+    margin: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    -webkit-font-smoothing: antialiased; 
+    font-size: 20px
+}
+
+/* Stil for ikoner */
+.icon {
+    display: inline-block;
+    margin: 0 10px; 
+
+}
+
+/* ikoner */
+.icon img {
+    width: 50px;
+    height: 50px;
+}
+
+#icon1
+{
+    height: 45px;
+    width: 45px;
+}
+
+#icon2
+{
+    height: 47px;
+    width: 47px;
+}
+
+#icon3
+{
+    height: 42px;
+    width: 42px
+}
+
+.container 
+{
+    background-color: #efcfdc;
+}
+
+/* Stil for forside slutter */
+
+/* Underside 1 hudtyper starter */
+
+
+/* Stil for image-container */
+.image-container2 
+{
+    text-align: center; 
+    margin: 0px 0; 
+}
+
+/* Stil for billede */
+.image-container2 img 
+{
+    max-width:100%; 
+    height: auto; 
+}
+
+.overskrift1
+{
+
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    -webkit-font-smoothing: antialiased; 
+    font-size: x-large;
+    margin: 10px;
+    margin-top: 25px;
+    text-align: center;
+    justify-content: center;
+}
+
+.intro2
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    -webkit-font-smoothing: antialiased; 
+    font-size:large;
+    margin: 10px;
+    margin-top: 45px;
+    text-align: center;
+    justify-content: center;
+}
+
+.introp
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    -webkit-font-smoothing: antialiased; 
+    font-size: medium;
+    margin: 10px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    line-height: 2;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+
+/* Stil for grid-container */
+.grid-container 
+{
+    display: grid;
+    grid-template-rows: repeat(4, 1fr); 
+    text-align: center;
+}
+
+/* Stil for grid-elementer */
+.grid-item {
+    background-color: #fff;
+    color: #000000;
+    padding: 20px;
+    text-align: center;
+    border: 5px solid #bccebb;
+    font-family: 'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    margin-left: 30px;
+    font-size: medium;
+    line-height: 1.5;
+    
+}
+
+.grid2
+{
+        text-align: center; 
+        margin: 20px 0;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); 
+        gap: 20px; 
+        margin-right: 30px;
+        font-family: 'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif;
+        -webkit-font-smoothing: antialiased;
+        margin-left: 30px;
+}
+
+.overskrifthudtyper
+{
+    padding: 2%;
+    border-bottom: 3px solid #ccc; 
+    font-family: 'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-weight: bold;
+    color: #000000;
+    background-color: #efcfdc;
+    margin: auto;
+}
+
+
+.overskrift
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    -webkit-font-smoothing: antialiased; 
+    
+    font-size:x-large;
+    margin-left: 60px;
+    margin-top: 45px;
+}
+
+
+/* Underoverskrift */
+.uoverskrift
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    -webkit-font-smoothing: antialiased; 
+    
+    font-size:medium;
+    
+    margin-left: 60px;
+    margin-top: 45px; 
+}
+
+.paragraffer
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    -webkit-font-smoothing: antialiased; 
+    
+    font-size:medium;
+   
+    margin-top: 10px; 
+    margin-left: 60px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+/* Stil for det attraktive link */
+.attraktivt-link
+ {
+    margin-top: 20px;
+    margin-left: 0%;
+    text-decoration: none; 
+    color: #000000; 
+    background-color: #efe6d4; 
+    padding: 5px 10px; 
+    border: 3px solid #b7a085; 
+    border-radius: 5px; 
+    display: inline-block; 
+}
+
+/* Ændre linkets udseende ved hover (når musen svever over det) */
+.attraktivt-link:hover 
+{
+    background-color: #efcfdc; 
+    color: #000000; 
+}
+
+.hudtyperk
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    -webkit-font-smoothing: antialiased; /* Aktiverer anti-aliasing for tekst på Chrome og Safari */
+    
+    font-size:small;
+  margin: auto;
+}
+
+.liste
+{
+
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    -webkit-font-smoothing: antialiased; 
+    
+    font-size:medium;
+    
+    margin-left: 40px;
+    margin-top: 20px; 
+    line-height: 2;
+}
+
+/* underside 2 Din guide */
+.custom-grid-container
+ {
+    display: grid;
+    grid-template-rows: repeat(5, 1fr); 
+    grid-template-columns: 1fr; 
+    grid-auto-flow: row; 
+    width: 700px;
+    margin-left: 60px;
+}
+
+.custom-grid-item
+ {
+    background-color: #bccebb; 
+    text-align: center;
+    color: #000000;
+    padding: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    border: 4px solid #fff;
+}
+
+
+    .custom-grid-container2 
+    {
+        display: grid;
+        grid-template-rows: repeat(5, 1fr); 
+        grid-template-columns: 1fr; 
+        grid-auto-flow: row; 
+        width: 700px;
+        margin-left: 60px;
+       
+    }
+    
+    .custom-grid-item2 {
+        background-color: #bccebb; 
+        text-align: center;
+        color: #000000;
+        padding: 5px;
+        padding-bottom: 5px;
+        text-align: center;
+        border: 4px solid #fff;
+ 
+}
+
+.fedskrift
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    -webkit-font-smoothing: antialiased; 
+    
+    font-size:medium;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.paragraffer2
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    -webkit-font-smoothing: antialiased; 
+    
+    font-size:medium;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px; 
+    margin-left: 60px;
+    line-height: 1.5;
+    margin-bottom: 2px;
+}
+
+.right-image
+{
+    height: 25%;
+    width: 25%;
+    float: right; 
+    margin-left: 10px; 
+    top: -460px;
+    position: relative;
+    margin-right: 300px;
+    border: 5px solid #efe6d4;
+
+}
+
+.paragraffer3
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    -webkit-font-smoothing: antialiased; 
+    
+    font-size:medium;
+    margin-top: 10px;
+    line-height: 1.5;
+    
+}
+
+.right-image2
+{
+    height: 25%;
+    width: 25%;
+    float: right; 
+    margin-left: 10px; 
+    top: -597px;
+    position: relative;
+    margin-right: 300px;
+    border: 5px solid #efe6d4;
+}
+
+.merefed
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    -webkit-font-smoothing: antialiased; 
+    font-size:large;
+    margin-left: 60px;
+    margin-top: 30px; 
+    margin-top: -10px;
+}
+
+/* underside 2 slutter */
+
+/* underside 3 Naturlige hudplejetips starter */
+
+
+#overskrift2
+{
+    line-height: 1.5;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    -webkit-font-smoothing: antialiased; 
+    font-size: x-large;
+    margin: 10px;
+    margin-top: 25px;
+    text-align: center;
+    justify-content: center;
+}
+
+#naturlig
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    -webkit-font-smoothing: antialiased; 
+    font-size: x-large;
+    font-weight: lighter;
+    margin-top: -20px;
+    text-align: center;
+    justify-content: center;
+}
+
+#maske1
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size:medium;
+    font-weight: bolder;
+    margin-left: 42px;
+    margin-top: 20px; 
+    line-height: 2;
+    
+}
+
+.ingredienser
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    -webkit-font-smoothing: antialiased; 
+    margin-top: -10px;
+    font-size:medium;
+    font-weight: lighter;
+    margin-left: 100px;
+    line-height: 2;
+    margin-bottom: 30px;
+}
+
+.paragraffer4
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    -webkit-font-smoothing: antialiased; 
+    font-size:medium;
+    margin-top: 10px; 
+    margin-left: 60px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+.instrukser
+{
+font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+-webkit-font-smoothing: antialiased; 
+margin-top: -10px;
+font-size:medium;
+font-weight: lighter;
+margin-left: 60px;
+line-height: 2.3;
+margin-bottom: 30px;
+}
+
+.ansigtsmasker 
+{
+    height: 27%;
+    width: 27%;
+    float: right; 
+    margin-left: 10px;
+    top: -500px;
+    position: relative;
+    margin-right: 100px;
+    border: 5px solid #efe6d4;
+}
+
+.tip
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    -webkit-font-smoothing: antialiased; 
+    font-size:medium;
+    margin-top: 10px; 
+    margin-left: 60px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+
+}
+
+.fed-span
+{
+font-weight: bold;
+}
+
+.overingre
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    -webkit-font-smoothing: antialiased; 
+    font-size:15px;
+    font-weight: bolder;
+    margin-top: 10px; 
+    margin-left: 60px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+
+}
+
+.spa
+{
+    height: 30%;
+    width: 30%;
+    float: right;
+    margin-left: 10px;
+    top: -350px;
+    position: relative;
+    margin-right: 100px;
+    border: 5px solid #efe6d4;
+}
+
+.proever
+{
+    height: 25%;
+    width: 25%;
+    float: right; 
+    margin-left: 10px; 
+    top: 700px;
+    position: relative;
+    margin-right: -420px;
+    border: 5px solid #efe6d4;
+}
+
+/* underside 3 slutter  */
+
+/* underside 4 Kom i gang starter */
+
+/* kom i gang billede */
+.komigang
+{
+    height: 22%;
+    width: 22%;
+    float: right; 
+    margin-left: 10px; 
+    top: -175px;
+    position: relative;
+    margin-right: 100px;
+    border: 5px solid #efe6d4;
+}
+
+.custom-grid-container3 
+{
+    display: grid;
+    grid-template-rows: repeat(5, 1fr); 
+    grid-template-columns: 1fr; 
+    grid-auto-flow: row; 
+    width: 700px;
+    margin-left: 60px;
+   
+}
+
+.custom-grid-item3 {
+    background-color: #bccebb; 
+    text-align: center;
+    color: #000000;
+    padding: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    border: 4px solid #fff;
+}
+
+.hudplejeidag
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    -webkit-font-smoothing: antialiased; 
+    font-weight:lighter ;
+    font-size:x-large;
+    margin-left: 60px;
+    margin-top: 45px; 
+}
+
+.intro3
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    -webkit-font-smoothing: antialiased; 
+    font-size:large;
+    margin: 10px;
+    margin-left: 60px;
+    margin-top: 45px;
+    text-align: left;
+    justify-content: left;
+}
+
+.introp3
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    -webkit-font-smoothing: antialiased; 
+    font-size: medium;
+    margin-left: 60px ;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    line-height: 2;
+    text-align: left;
+    justify-content: left;
+}
+
+.start
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    -webkit-font-smoothing: antialiased; 
+    font-size: medium;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    line-height: 2;
+    text-align: left;
+    justify-content: left;
+    margin-left: 60px;
+}
+
+.starto
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    -webkit-font-smoothing: antialiased; 
+    font-weight:lighter ;
+    font-size:x-large;
+    margin-left: 60px;
+    margin-top: 25px; 
+}
+
+.liste4
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    -webkit-font-smoothing: antialiased; 
+    
+    font-size:medium;
+    
+    margin-left: 30px;
+    margin-top: 0px;
+    line-height: 2;
+}
+
+.container-2 {
+    width: 100%; 
+    padding: 20px; 
+    box-sizing: border-box; 
+}
+
+.right-image-2 {
+    float: right; 
+    margin-left: 10px; 
+}
+
+/* sundhed billede */
+.sundhed
+{
+    height: 25%;
+    width: 25%;
+    float: right; 
+    margin-left: 10px; 
+    top: 325px;
+    position: relative;
+    margin-right: 80px;
+    border: 5px solid #efe6d4;
+
+}
+
+.fedskrift2
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size:medium;
+    margin: auto;
+    margin-top: 30px;
+}
+
